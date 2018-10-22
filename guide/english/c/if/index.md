@@ -62,3 +62,27 @@ int main () {
 -> a is not less than 5!
 -> Value of a is : 100
 ```
+
+## ----------------------------------------------
+Some times when we need to check more than one conditions, at that time we can check those conditions using if statement..
+here is the example given which uses "&&" to add another condition in if statment,which stands for "AND" ..
+## Example 2:-------------------------
+#include<stdio.h>
+
+
+int main()
+{
+int a=10;
+ //used to clear the screeen.
+if(a>0 && a<20){
+ printf("Value is less than 20");
+ }
+ else
+  {
+   printf("Value is greater than 20");
+   }
+  
+
+return 0;
+}
+----------------------------------------------
